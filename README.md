@@ -1,29 +1,21 @@
-# currency-exchange
+# Assessment
 
-This template should help get you started developing with Vue 3 in Vite.
+A currency exchange app built as part of an assessment with alphavantage APIs : https://www.alphavantage.co/
 
-## Recommended IDE Setup
+*   Supports Localization (Support English and French locale)
+*   Bootstrap CSS
+*   Vue 3, vite, pinia
+*   WCAG 2.0 Level AA standards met
+*   Axios for apis calls
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Deployment
 
-## Customize configuration
+Deployed at Netlify : https://ebin-assessment.netlify.app/
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Screenshots
 
-## Project Setup
+![HomePage](/screenshots/screenshot1.png?raw=true "HomePage")
 
-```sh
-npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+![currencyConversion](/screenshots/screenshot2.png?raw=true "currencyConversion")
 ```
