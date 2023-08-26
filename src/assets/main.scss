@@ -1,0 +1,75 @@
+@import './base.scss';
+
+$primary: #1f2675;
+$light-grey: #919095;
+$cool-grey: #717173;
+$aqua: #8cd2f4;
+
+
+#app {
+  width: 100%;
+  margin: 2rem;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.trx-history {
+  text-align: center;
+  background: $light-grey;
+  color: white;
+  width: 70%;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px grey;
+}
+
+.mcap-select-dropdown {
+  background: $primary;
+  margin-bottom: 2rem;
+  color: white;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.mcap-btn-primary {
+  background-color: $primary !important;
+
+  &:hover {
+    background-color: $primary !important;
+  }
+}
+
+.mcap-btn-secondaray {
+  background-color: $aqua !important;
+  border: none;
+  color: black;
+
+  &:hover {
+    background-color: $aqua !important;
+    color: black;
+  }
+}
+
+.mcap-card-header-primary {
+  background-color: $primary !important;
+  color: white;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+}
